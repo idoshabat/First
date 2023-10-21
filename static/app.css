@@ -1,0 +1,38 @@
+body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnOL6OUzTCBHsCQWm8laQvOb8loJWYQUpUQ_O91VKBug&s');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Style the menu bar */
+ul.menu-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #b3d3e9; /* Background color for the menu bar */
+    display: flex;
+    flex-direction: row;
+    height: 55px;;
+}
+
+/* Style the menu items */
+ul.menu-bar li {
+/* Display the list items horizontally */
+    flex:1;
+}
+
+ul.menu-bar li a {
+    display: block;
+    font-size: large;
+    color: magenta; /* Text color for menu items */
+    text-align: center;
+    padding: 17px 16px;
+    text-decoration: none;
+}
+
+/* Change the color of menu items on hover */
+ul.menu-bar li a:hover {
+    background-color: #f12ae7; /* Background color for menu items on hover */
+    color: white;
+}
