@@ -5,6 +5,16 @@ body{
     background-attachment: fixed;
 }
 
+h1{
+    text-align: center;
+    font-size: xxx-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h2{
+    text-align: right;
+}
+
 /* Style the menu bar */
 ul.menu {
     list-style-type: none;
